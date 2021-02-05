@@ -1,0 +1,7 @@
+<div>
+    <form #userValue="ngForm" (ngSubmit)="onClickSubmit(userValue.value)">
+        <input type="text" name="addTodo" placeholder="Add Todo...." ngModel>
+        <br/>
+        <input type="submit" value="submit">
+    </form>
+</div>
